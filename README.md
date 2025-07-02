@@ -3,6 +3,7 @@
 This simulation uses Federated Learning (FL), enabling data centers (simulated as clients) to collaboratively train models without sharing raw data, ensuring privacy preservation. Each data center trains a local model on its own dataset, and only the model updates (weights) are shared with a central server for aggregation, improving model performance while preserving privacy.
 
 Key Features
+
 	•	Client Models: Each client (representing a data center) trains its model locally using its specific data (i.e., data from that particular data center).
  
 	•	Model Aggregation: The central server aggregates the local models by averaging their parameters (in this case, feature importances from decision trees).
